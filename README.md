@@ -61,7 +61,7 @@ $ git clone https://gitlab.com/sandro.lechner/aula-devops-fundamentals.git
 Após o commit adicionei o repositório do github e enviei as alterações. 
 
 ```console
-$ git remote add "meu repositório"
+$ git remote set-url origin "meu repositório"
 ```
 
 ```console
