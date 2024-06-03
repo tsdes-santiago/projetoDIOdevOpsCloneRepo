@@ -51,3 +51,19 @@ O objetivo do projeto é clonar um repositório, fazer alterações e enviar par
 Modificações:
 
 <img src="alteracoes.png" alt="Modificações no site, adicionando detalhes pessoais." />
+
+Clone do repositório:
+
+```console 
+$ git clone https://gitlab.com/sandro.lechner/aula-devops-fundamentals.git
+```
+
+Após o commit adicionei o repositório do github e enviei as alterações. 
+
+```console
+$ git remote add "meu repositório"
+```
+
+```console
+$ git push -u origin main
+```
